@@ -1,5 +1,5 @@
 context:
-  version: "6.12.0"
+  version: "6.12.1"
   maj_min: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.qt.io/official_releases/qt/${{ maj_min }}/${{ version }}/submodules/qtsensors-everywhere-src-${{ version }}.tar.xz
-  md5: 0b591bc82ea5982119204f5e2b83181e
+  md5: 1223d6da6a4a7321d6d1c0203d80a8af
 
 build:
   number: 0
